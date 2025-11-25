@@ -9,9 +9,6 @@ pip install -r requirements.txt
 # Navigate to the Django project directory
 cd note_app
 
-# Create fresh migrations
-python manage.py makemigrations notes
-
 # Collect static files
 python manage.py collectstatic --no-input
 
